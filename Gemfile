@@ -22,6 +22,10 @@ gem 'uglifier', '>= 1.3.0'
 # Upgrade Rack to prevent XSS and DOS attacks and vulnerability in earlier versions
 gem "rack", ">= 2.0.6"
 
+# Upgrade Loofah against republished SVG vulnerability
+gem "loofah", ">= 2.2.3"
+
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
